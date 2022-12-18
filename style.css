@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(fireworks.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 3px black;
+}
+
+h3 {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px black;
+}
+
+hr {
+  margin: 20px auto;
+  color: #CF097d;
+  border: 3px solid #CF097d;
+  max-width: 65px;
+  opacity: 1;  
+}
+
+.buffer{
+  height: 5rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color:#CF097d;
+  border-color: #CF097d;
+}
+
+.btn-primary:hover {
+  background-color: #D13892;
+  border-color:  #D13892;
+  --bs-btn-hover-bg: #D13892;	
+  --bs-btn-hover-border-color: #D13892;
+  transform: scale(1.03);
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
